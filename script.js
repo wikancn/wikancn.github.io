@@ -73,7 +73,7 @@ const clearAll= () =>{
     calculationOperator =''
     currentNumber = '0'
 }
-// // saat function aktif updateScreen tidak bisa diupdat
+
 const clearBtn = document.querySelector('.all-clear')
 
 clearBtn.addEventListener('click', ()=>{
