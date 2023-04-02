@@ -76,7 +76,7 @@ const clearAll= () =>{
 // // saat function aktif updateScreen tidak bisa diupdat
 const clearBtn = document.querySelector('.all-clear')
 
-clearBtn,addEventListener("click", ()=>{
+clearBtn.addEventListener('click', ()=>{
     clearAll()
     updateScreen(currentNumber)
 })
